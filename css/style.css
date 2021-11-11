@@ -1,7 +1,6 @@
 body {
     font-family: 'Steppe', sans-serif;
     font-size: x-large;
-    height: 100%;
 }
 
 h1 {
@@ -17,15 +16,17 @@ h2 {
     font-weight: 900;
 }
 
+.nomargin {
+    
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
 .fixedimg{
 	position: sticky;
 	top: 0;
 	right: 0;
-	width: 100vh;
-	height: 100vh;
-	box-sizing: border-box;
-	padding: 2rem;
+	box-sizing:content-box;
 	background: white;
-    overflow-y: scroll;
 
 }
