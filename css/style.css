@@ -1,8 +1,31 @@
 body {
     font-family: 'Steppe', sans-serif;
+    font-size: x-large;
+    height: 100%;
 }
 
 h1 {
     font-family: 'Outer Sans', sans-serif;
+    font-size: 64px;
     font-weight: 900;
+}
+
+
+h2 {
+    font-family: 'Outer Sans Outline', sans-serif;
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.fixedimg{
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 100vh;
+	height: 100vh;
+	box-sizing: border-box;
+	padding: 2rem;
+	background: white;
+    overflow-y: scroll;
+
 }

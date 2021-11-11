@@ -47,6 +47,55 @@
     src: url(/fonts/OuterSans-Black.woff2) format('woff2');
 }
 
+/*Outer Sans Outline*/
+@font-face {
+    font-family: 'Outer Sans Outline';
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url(/fonts/OuterSansOutline-Thin.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Outer Sans Outline';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(/fonts/OuterSansOutline-Light.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Outer Sans Outline';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/fonts/OuterSansOutline-Regular.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Outer Sans Outline';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(/fonts/OuterSansOutline-Medium.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Outer Sans Outline';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(/fonts/OuterSansOutline-Bold.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Outer Sans Outline';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(/fonts/OuterSansOutline-Black.woff2) format('woff2');
+}
+
 /*Steppe*/
 @font-face {
     font-family: 'Steppe';
