@@ -16,17 +16,18 @@ h2 {
     font-weight: 900;
 }
 
-.nomargin {
-    
-    margin-left: 0px;
-    margin-right: 0px;
+.nomargin{
+    margin-right: 0;
+    margin-left: 0;
 }
 
 .fixedimg{
 	position: sticky;
-	top: 0;
-	right: 0;
+    text-align: justify;
+	top: 20%;
+
 	box-sizing:content-box;
 	background: white;
+
 
 }
