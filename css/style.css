@@ -15,14 +15,14 @@ body{
 
 h1 {
     font-family: 'Outer Sans', sans-serif;
-    font-size: 64px;
+    font-size: 60px;
     font-weight: 900;
 }
 
 
 h2 {
     font-family: 'Outer Sans Outline', sans-serif;
-    font-size: 64px;
+    font-size: 60px;
     font-weight: 900;
 }
 
@@ -60,18 +60,19 @@ h2 {
 }
 /*End colors*/
 
+.nomargin{
+    margin-right: 0;
+    margin-left: 0;
+}
+
 .about{
     padding-top: 50px;
     padding-bottom: 200px;
 
 }
+
 .about h1, h2 {
     line-height: 0.9;
-}
-
-.nomargin{
-    margin-right: 0;
-    margin-left: 0;
 }
 
 .fixedimg{
@@ -164,5 +165,4 @@ h2 {
     color: #fefee3;
     letter-spacing: 2px;
 }
-
 
