@@ -97,10 +97,9 @@
     src: url(../fonts/OuterSansOutline-Black.woff2) format('woff2');
 }
 
-/*Steppe*/
 @font-face {
-    font-family: 'Steppe';
+    font-family: 'Eastman Roman';
     font-style: normal;
     font-display: swap;
-    src: url(../fonts/Steppe.woff2) format('woff2');
+    src: url(../fonts/EastmanRoman-Regular.woff2) format('woff2');
 }

@@ -1,6 +1,6 @@
 
 body{
-    font-family: 'Steppe', sans-serif;
+    font-family: 'Eastman Roman', sans-serif;
     font-size: x-large;
     color: #1d1d1d;
     background-color: #fefee3;
@@ -11,7 +11,9 @@ body{
     overflow-x: hidden;
 }
     
-
+p {
+    margin-top: 2rem;
+}
 
 h1 {
     font-family: 'Outer Sans', sans-serif;
@@ -65,9 +67,19 @@ h2 {
     margin-left: 0;
 }
 
+.vl {
+    border-left: 2px solid;
+    height: 200px;
+    max-width: 1px;
+  }
+
+.blankdiv {
+    padding: 200px;
+}
+
 .about{
     padding-top: 50px;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 
 }
 
@@ -78,7 +90,7 @@ h2 {
 .fixedimg{
 	position: sticky;
     text-align: justify;
-	top: 10%;
+	top: 20%;
 	box-sizing:content-box;
 }
 
