@@ -189,13 +189,8 @@ h2 {
 /*Swiper*/
 .swiper {
     width: 100%;
-<<<<<<< HEAD
-    height: 100vh;
-  }
-=======
     height: 80vh;
 }
->>>>>>> origin
   
 .swiper-slide img {
     display: block;
@@ -261,7 +256,6 @@ h2 {
  
 .slide  h1, .slide h2 {
     font-size: 2rem;
-<<<<<<< HEAD
   }
 
 
@@ -281,6 +275,4 @@ h2 {
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
-=======
-}
->>>>>>> origin
+
