@@ -235,6 +235,39 @@ h2 {
     background-color: #fefee3;
 }
 
+.tl-timemarker.tl-timemarker-active .tl-timemarker-content-container
+{
+    background-color: #1d1d1d;
+}
+.tl-timenav  {
+    border-top: 1px solid #1d1d1d;
+}
+
+.tl-timeaxis-background {
+    border-top: 1px solid #1d1d1d;
+}
+
+.tl-timemarker .tl-timemarker-content-container {
+    background-color: #fefee3;
+}
+
+.tl-slidenav-previous .tl-slidenav-content-container.tl-slidenav-inverted .tl-slidenav-icon, .tl-slidenav-next .tl-slidenav-content-container.tl-slidenav-inverted .tl-slidenav-icon, .tl-slidenav-previous .tl-slidenav-content-container.tl-slidenav-inverted .tl-slidenav-title, .tl-slidenav-next .tl-slidenav-content-container.tl-slidenav-inverted .tl-slidenav-title, .tl-slidenav-previous .tl-slidenav-content-container.tl-slidenav-inverted .tl-slidenav-description, .tl-slidenav-next .tl-slidenav-content-container.tl-slidenav-inverted .tl-slidenav-description
+{
+    color: #1d1d1d;
+    text-shadow: none;
+}
+
+/*Active*/
+.tl-timemarker.tl-timemarker-active .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container [class^="tl-icon-"], .tl-timemarker.tl-timemarker-active .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container [class*=" tl-icon-"]
+{
+    color: #fefee3;
+}
+
+.tl-timemarker.tl-timemarker-active .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline
+{
+    color: #fefee3;
+}
+
 .tl-timeaxis 
 .tl-timeaxis-content-container 
 .tl-timeaxis-minor 
