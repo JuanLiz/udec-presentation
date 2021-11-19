@@ -216,7 +216,17 @@ h2 {
     object-fit: cover;
 }
 
-/*Infinite carousel*/
+.slideImg img{
+    margin-left: 18px;
+
+}
+
+.programas{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+/*Infinite carousel
 @-webkit-keyframes scroll {
     0% {
       -webkit-transform: translateX(0);
@@ -270,15 +280,7 @@ h2 {
     display: flex;
     width: calc(250px );
 }
- 
+*/
 
-.slideImg img{
-    margin-left: 18px;
 
-}
-
-.programas{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
 
