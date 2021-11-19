@@ -59,7 +59,7 @@
     <section class="container-fluid py-5 ps-5">
         
         <!--Formación y Aprendizaje-->
-        <div class="nomargin row ps-5">
+        <div class="nomargin row ps-5" data-aos="zoom-out-down" data-aos-offset="250" data-aos-duration="250">
             <div class="col-lg-5 col-md-4">
                 <div class="py-5">
                     <h1>Formación y</h1>
@@ -78,7 +78,7 @@
                 </div>
             </div>
             <div class="col-lg-1 col-md-2"></div>
-            <div class="col-lg-6 p-5" data-aos="zoom-out-down" data-aos-offset="250" data-aos-duration="250">
+            <div class="col-lg-6 p-5">
                 <div class="fixedimg">
                     <img class="img-fluid" src="./img/objetivos/grados.jpg" alt="">
                 </div>
@@ -146,8 +146,11 @@
     </section><!--End university objectives-->
 
     <!--University timeline-->
-    <section class="timeline container-fluid">
-        <div id='timeline-embed' style="width: 100%; height: 600px"></div>
+    <section class="history container-fluid">
+        <div class="timeline">
+            <div id='timeline-embed' style="width: 100%; height: 600px"></div>
+
+        </div>
 
     </section><!--End University timeline-->
 
@@ -819,9 +822,13 @@
         });
     </script>
     <script type="text/javascript">
+            var additionalOptions = {
+              default_bg_color: {r:254, g:254, b:227},
+              language: "es",
+            }
         // make_the_json() is some javascript function you've written
         // which creates the appropriate JSON configuration
-        window.timeline = new TL.Timeline('timeline-embed', 'timeline.json');
+        window.timeline = new TL.Timeline('timeline-embed', 'timeline.json',additionalOptions);
     </script>
 
 </body>
