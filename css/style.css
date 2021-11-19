@@ -107,6 +107,11 @@ h2 {
 	box-sizing:content-box;
 }
 
+.fixedimg img{
+    width:700px;
+	border-radius:70px;
+}
+
 .portada{
     margin: 0;
     padding: 0;
