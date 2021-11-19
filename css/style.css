@@ -78,16 +78,12 @@ h2 {
   }
 
 .blankdiv {
-    padding: 200px;
-}
-
-.miniblankdiv {
-    padding: 100px;
+    padding: 27vh;
 }
 
 .about{
-    padding-top: 50px;
-    padding-bottom: 100px;
+    padding-top: 15vh;
+    padding-bottom: 20vh;
 
 }
 
@@ -179,6 +175,12 @@ h2 {
     letter-spacing: 2px;
 }
 
+.objectives {
+    padding-top: 3rem;
+    padding-bottom: 25vh;
+    padding-left: 3rem;
+}
+
 .headquarters{
     padding-left: 6rem;
     padding-right: 6rem;
@@ -189,15 +191,15 @@ h2 {
 /*Swiper*/
 .swiper {
     width: 100%;
-    height: 85vh;
-  }
+    height: 80vh;
+}
   
-  .swiper-slide img {
+.swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
+}
 
 /*Infinite carousel*/
 @-webkit-keyframes scroll {
@@ -209,9 +211,9 @@ h2 {
       -webkit-transform: translateX(calc(-250px * 7));
               transform: translateX(calc(-250px * 7));
     }
-  }
+}
   
-  @keyframes scroll {
+@keyframes scroll {
     0% {
       -webkit-transform: translateX(0);
               transform: translateX(0);
@@ -220,36 +222,40 @@ h2 {
       -webkit-transform: translateX(calc(-250px * 7));
               transform: translateX(calc(-250px * 7));
     }
-  }
-  .slider {
+}
+
+.slider {
     background: pr;
     height: 100px;
     overflow: hidden;
-  }
-  .slider::before, .slider::after {
+}
+.slider::before, .slider::after {
 
     height: 100px;
     position: absolute;
     width: 200px;
     z-index: 2;
-  }
-  .slider::after {
+}
+
+.slider::after {
     right: 0;
     top: 0;
     -webkit-transform: rotateZ(180deg);
             transform: rotateZ(180deg);
-  }
-  .slider::before {
+}
+
+.slider::before {
     left: 0;
     top: 0;
-  }
-  .slider .slide-track {
+}
+
+.slider .slide-track {
     -webkit-animation: scroll 40s linear infinite;
             animation: scroll 40s linear infinite;
     display: flex;
     width: calc(250px );
-  }
+}
  
 .slide  h1, .slide h2 {
     font-size: 2rem;
-  }
+}
