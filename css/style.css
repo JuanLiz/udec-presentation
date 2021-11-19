@@ -4,7 +4,7 @@
 
 body{
     font-family: 'Eastman Roman', sans-serif;
-    font-size: x-large;
+    font-size: 1rem;
     color: #1d1d1d;
     background-color: #fefee3;
     margin: 0px;
@@ -13,7 +13,7 @@ body{
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
-    
+
 p {
     margin-top: 1.2rem;
 }
@@ -27,9 +27,22 @@ h1 {
 
 h2 {
     font-family: 'Outer Sans Outline', sans-serif;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 900;
     line-height: 0.9;
+}
+
+@media screen and (min-width: 1400px) {
+    body {
+        font-size: x-large;
+    }
+
+    h1 {  
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 4rem;
+    }
 }
 
 /*Colors*/
@@ -169,7 +182,6 @@ h2 {
 
 #text,#text2{
     line-height: 0.9;
-    font-size: 60px;
     z-index: 9;
     color: #fefee3;
     letter-spacing: 2px;
@@ -254,18 +266,7 @@ h2 {
     width: calc(250px );
 }
  
-.slide  h1, .slide h2 {
-    font-size: 2rem;
-  }
 
-
-.sede h1,h2{
-    font-size: 3rem;
-}  
-
-.sede p,ul{
-    font-size: 1rem;
-}
 .slideImg img{
     margin-left: 18px;
 
