@@ -1,270 +1,190 @@
 {
     "title": {
         "media": {
-          "url": "//www.flickr.com/photos/tm_10001/2310475988/",
-          "caption": "Whitney Houston performing on her My Love is Your Love Tour in Hamburg.",
-          "credit": "flickr/<a href='http://www.flickr.com/photos/tm_10001/'>tm_10001</a>"
+          "url": "https://youtu.be/fwjBz_tYUSU",
+          "credit": "<a href=\"https://www.youtube.com/channel/UCHAmWg53w4HyIXmD26AExog\">UCUNDINAMARCA TV</a>"
         },
         "text": {
-          "headline": "Whitney Houston<br/> 1963 - 2012",
-          "text": "<p>Houston's voice caught the imagination of the world propelling her to superstardom at an early age becoming one of the most awarded performers of our time. This is a look into the amazing heights she achieved and her personal struggles with substance abuse and a tumultuous marriage.</p>"
+          "headline": " Universidad de Cundinamarca",
+          "text": "<p>La reconstrucción de la memoria histórica de la UCundinamarca, desde su fundación y los diferentes momentos que reflejan su capacidad de adaptación a los cambios sociales y al desarrollo de la región hasta hoy, manifiesta su necesidad de trascender a otros espacios acordes con la modernidad y la dinámica propia de una institución generadora de conocimiento, características que se adecúan a este momento histórico y que se plasman en este documento. </p>"
         }
     },
     "events": [
       {
         "media": {
-          "url": "{{ static_url }}/img/examples/houston/family.jpg",
-          "caption": "Houston's mother and Gospel singer, Cissy Houston (left) and cousin Dionne Warwick.",
-          "credit": "Cissy Houston photo:<a href='http://www.flickr.com/photos/11447043@N00/418180903/'>Tom Marcello</a><br/><a href='http://commons.wikimedia.org/wiki/File%3ADionne_Warwick_television_special_1969.JPG'>Dionne Warwick: CBS Television via Wikimedia Commons</a>"
+          "url": "https://youtu.be/1ndC6XcWldI",
+          "credit": "<a href=\"https://www.youtube.com/channel/UCHAmWg53w4HyIXmD26AExog\">UCUNDINAMARCA TV</a>"
+        },
+        "start_date": {
+          "month": "12",
+          "day": "19",
+          "year": "1969"
+        },
+        "text": {
+          "headline": "Fundación del ITUC",
+          "text": "<p>Mediante la Ordenanza 045 de diciembre 19, es creado el Instituto Técnico Universitario de Cundinamarca (ITUC). En dicha Ordenanza se establece que el ITUC ofrecerá educación superior a hombres y mujeres que poseen título de bachiller o normalista, y dará preferencia en un 90% a estudiantes oriundos del departamento.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "https://www.ucundinamarca.edu.co/aniversario50/images/historia/15.jpg",
+          "credit": "Archivo histórico - John Henry Vásquez Calderón"
         },
         "start_date": {
           "month": "8",
-          "day": "9",
-          "year": "1963"
-        },
+          "day": "1",
+          "year": "1970"
+        },  
         "text": {
-          "headline": "A Musical Heritage",
-          "text": "<p>Born in New Jersey on August 9th, 1963, Houston grew up surrounded by the music business. Her mother is gospel singer Cissy Houston and her cousins are Dee Dee and Dionne Warwick.</p>"
+          "headline": "Inicio de labores",
+          "text": "El 1 de agosto se inician las labores académicas en la Sede de Fusagasugá con los programas de Tecnología Agropecuaria, Tecnología Administrativa y Secretariado Ejecutivo."
         }
       },
       {
         "media": {
-          "url": "https://youtu.be/fSrO91XO1Ck",
-          "caption": "",
-          "credit": "<a href=\"http://unidiscmusic.com\">Unidisc Music</a>"
+          "url": "https://www.ucundinamarca.edu.co/aniversario50/images/historia/12.jpg",
+          "credit": "Archivo histórico - John Henry Vásquez Calderón"
         },
         "start_date": {
-          "year": "1978"
+          "year": "1971"
         },
         "text": {
-          "headline": "First Recording",
-          "text": "At the age of 15 Houston was featured on Michael Zager's song, Life's a Party."
+          "headline": "Más programas académicos",
+          "text": "En el segundo semestre, el Consejo Directivo autorizó la creación del programa Ciencias de la Educación conducente a la formación de profesores a nivel de expertos en cuatro semestres, y de técnicos en seis semestres para el ciclo básico de la enseñanza media rural."
         }
       },
       {
         "media": {
-          "url": "https://youtu.be/_gvJCCZzmro",
-          "caption": "A young poised Whitney Houston in an interview with EbonyJet.",
-          "credit": "EbonyJet"
+          "url": "https://www.ucundinamarca.edu.co/images/historia/historia2.jpg"
         },
         "start_date": {
-          "year": "1978"
-        },
+          "month": "12",
+          "day": "7",
+          "year": "1971"
+        },  
         "text": {
-          "headline": "The Early Years",
-          "text": "As a teen Houston's credits include background vocals for Jermaine Jackson, Lou Rawls and the Neville Brothers. She also sang on Chaka Khan's, 'I'm Every Woman,' a song which she later remade for the <i>Bodyguard</i> soundtrack which is the biggest selling soundtrack of all time. It sold over 42 million copies worldwide."
+          "headline": "Seccional de Ubaté",
+          "text": "La Ordenanza 073 del 7 de diciembre crea la Seccional del Instituto Universitario de Cundinamarca (ITUC), en la ciudad de Ubaté"
         }
       },
       {
         "media": {
-          "url": "https://youtu.be/H7_sqdkaAfo",
-          "caption": "I'm Every Women as performed by Whitney Houston.",
-          "credit": "Arista Records"
+          "url": "https://www.ucundinamarca.edu.co/images/historia/historia8.jpg"
         },
         "start_date": {
-          "year": "1978"
+          "month": "11",
+          "year": "1972"
         },
         "text": {
-          "headline": "Early Album Credits",
-          "text": "As a teen Houston's credits include background vocals for Jermaine Jackson, Lou Rawls and the Neville Brothers. She also sang on Chaka Khan's, 'I'm Every Woman,' a song which she later remade for the <i>Bodyguard</i> soundtrack which is the biggest selling soundtrack of all time. It sold over 42 million copies worldwide."
+          "headline": "Seccional de Girardot",
+          "text": "En noviembre, la Ordenanza 014 crea la Seccional del Instituto Universitario de Cundinamarca (ITUC), en la ciudad de Girardot. Así mismo, se ordena la realización de los estudios necesarios para justificar las carreras en las áreas de Salud, Educación, Administración y Agropecuarias"
         }
       },
       {
         "media": {
-          "url": "https://youtu.be/A4jGzNm2yPI",
-          "caption": "Whitney Houston and Clive Davis discussing her discovery and her eponymous first album.",
-          "credit": "Sony Music Entertainment"
+          "url": "https://www.ucundinamarca.edu.co/images/historia/historia5.jpg"
         },
         "start_date": {
-          "year": "1983"
+          "year": "1976"
         },
         "text": {
-          "headline": "Signed",
-          "text": "Houston is signed to Arista Records after exec Clive Davis sees her performing on stage with her mother in New York."
+          "headline": "Nueva sede del ITUC",
+          "text": "sel 2 al 4 de julio se lleva a cabo el simposio sobre planeamiento curricular de la carrera de Educación Física. Con la participación de delegados del Icfes, Coldeportes, y universidades nacionales que ofrecen este programa. Se inicia la construcción de la nueva sede del ITUC, en el lote cedido por el hospital San Rafael de Fusagasugá. El diseño arquitectónico, la supervisión técnica, interventoría y cálculos estructurales son desarrollados por la Secretaría de Obras Públicas."
         }
       },
       {
         "media": {
-          "url": "https://youtu.be/m3-hY-hlhBg",
-          "caption": "The 'How Will I Know' video showcases the youthful energy that boosted Houston to stardom.",
-          "credit": "Arista Records Inc."
+          "url": "https://www.ucundinamarca.edu.co/aniversario50/images/historia/9.jpg",
+          "credit": "Archivo histórico - John Henry Vásquez Calderón"
         },
         "start_date": {
+          "month":"7",
+          "day": "15",
           "year": "1985"
         },
         "text": {
-          "headline": "Debut",
-          "text": "Whitney Houston's self titled first release sold over 12 million copies in the U.S. and included the hit singles 'How Will I Know,' 'You Give Good Love,' 'Saving All My Love For You' and 'Greatest Love of All.'"
+          "headline": "Convenio con la UNAL",
+          "text": " El 15 de julio se firma con la Universidad Nacional el convenio más importante que haya suscrito el ITUC, a fin de capacitar, actualizar y perfeccionar a sus docentes, fomentar el desarrollo de la Investigación y realizar proyectos académicos conjuntos. A través del año se han venido desarrollando actividades de servicio, tales como asesoría a los microempresarios de la región del Sumapaz, Cámara de Comercio de Bogotá, Acción Comunal de Cundinamarca, cursos de capacitación a funcionarios de Caprecundi y estudio sobre aspectos administrativos y financieros del municipio de Fusagasugá."
         }
       },
       {
         "media": {
-          "url": "https://youtu.be/v0XuiMX1XHg",
-          "caption": "Dionne Warwick gleefully announces cousin, Whitney Houston, the winner of the Best Female Pop Vocal Performance for the song Saving All My Love.",
-          "credit": "<a href='http://grammy.org'>The Recording Academy</a>"
+          "url": "https://youtu.be/pGpW_Z_2kTw",
+          "caption": "John Henry Vásquez Historia 50 años de la UCundinamarca Extensión Chía",
+          "credit": "<a href=\"https://www.youtube.com/channel/UCHAmWg53w4HyIXmD26AExog\">UCUNDINAMARCA TV</a>"
         },
         "start_date": {
-          "year": "1986"
-        },
-        "text": {
-          "headline": "'The Grammys'",
-          "text": "In 1986 Houston won her first Grammy for the song Saving All My Love. In total she has won six Grammys, the last of which she won in 1999 for It's Not Right But It's Okay."
-        }
-      },
-      {
-        "media": {
-          "url": "https://youtu.be/eH3giaIzONA",
-          "caption": "I Wanna Dance With Somebody",
-          "credit": "Arista Records Inc."
-        },
-        "start_date": {
-          "year": "1987"
-        },
-        "text": {
-          "headline": "'Whitney'",
-          "text": "Multiplatinum second album sells more than 20 million copies worldwide. With 'Whitney', Houston became the first female artist to produce four number 1 singles on one album including \"I Wanna Dance With Somebody,' 'Didn't We Almost Have It All,' 'So Emotional' and 'Where Do Broken Hearts Go.'"
-        }
-      },
-      {
-        "media": {
-          "url": "https://youtu.be/96aAx0kxVSA",
-          "caption": "\"One Moment In Time\" - Theme song to the 1988 Seoul Olympics",
-          "credit": "Arista Records Inc."
-        },
-        "start_date": {
-          "year": "1988"
-        },
-        "text": {
-          "headline": "\"One Moment In Time\"",
-          "text": "The artist's fame continues to skyrocket as she records the theme song for the Seoul Olympics, 'One Moment In Time.'"
-        }
-      },
-      {
-        "media": {
-          "url": "",
-          "caption": "",
-          "credit": ""
-        },
-        "start_date": {
-          "year": "1989"
-        },
-        "text": {
-          "headline": "Bobby Brown",
-          "text": "Houston and Brown first meet at the Soul Train Music Awards. In an interview with Rolling Stone Magazine, Houston admitted that it was not love at first sight. She turned down Brown's first marriage proposal but eventually fell in love with him."
-        }
-      },
-      {
-        "media": {
-          "url": "https://youtu.be/5Fa09teeaqs",
-          "caption": "CNN looks back at Houston's iconic performance of the national anthem at Superbowl XXV.",
-          "credit": "CNN"
-        },
-        "start_date": {
-          "year": "1991"
-        },
-        "text": {
-          "headline": "Super Bowl",
-          "text": "Houston's national anthem performance captures the hearts and minds of Americans ralllying behind soldiers in the Persian Guf War."
-        }
-      },
-      {
-        "media": {
-          "url": "https://youtu.be/h9rCobRl-ng",
-          "caption": "\"Run To You\" from the 1992 \"Bodyguard\" soundtrack..",
-          "credit": "Arista Records"
-        },
-        "start_date": {
+          "month":"12",
+          "day":"30",
           "year": "1992"
         },
         "text": {
-          "headline": "\"The Bodyguard\"",
-          "text": "Houston starred opposite Kevin Costner in the box office hit, The Bodyguard. The soundtrack to the movie sold over 44 million copies worldwide  garnering 3 Grammy's for the artist."
+          "headline": "De ITUC a UDEC",
+          "text": "El 30 de diciembre de 1992, mediante la Resolución N.º 19530, se establece el reconocimiento institucional. Una vez adquiere el estatus de universidad, se incrementa su presencia en las principales provincias del departamento de Cundinamarca"
         }
       },
       {
         "media": {
-          "url": "https://youtu.be/5cDLZqe735k",
-          "caption": "Bobby Brown performing \"My Prerogrative,\" from his \"Don't be Cruel\" solo album. Bobby Brown first became famous with the R&B group, New Edition.",
-          "credit": ""
+          "url": "https://www.ucundinamarca.edu.co/images/historia/historia6.jpg"
         },
         "start_date": {
-          "year": "1992"
+          "month":"7",
+          "day":"7",
+          "year": "1994"
         },
         "text": {
-          "headline": "Married Life",
-          "text": "<p>After three years of courtship, Houston marries New Edition singer Bobby Brown. Their only child Bobbi Kristina Brown was born in 1993.</p><p>In 2003 Brown was charged with domestic violence after police responded to a domestic violence call. Houston and Brown were featured in the reality show, \"Being bobby Brown,\" and divorced in 2007.</p>"
+          "headline": "Extensión Facatativá",
+          "text": "Se crea la extensión de Facatativá mediante el Acuerdo N.º 006 del 7 de julio de 1994"
         }
       },
       {
         "media": {
-          "url": "//upload.wikimedia.org/wikipedia/commons/d/dd/ABC_-_Good_Morning_America_-_Diane_Sawyer.jpg",
-          "caption": "Diane Sawyer ",
-          "credit": "flickr/<a href='http://www.flickr.com/photos/23843757@N00/194521206/'>Amanda Benham</a>"
+          "url": "https://www.ucundinamarca.edu.co/images/sedes/chia.jpg"
         },
         "start_date": {
-          "year": "2002"
+          "year": "1999"
         },
         "text": {
-          "headline": "Crack is Whack",
-          "text": "<p>Houston first publicly admitted to drug use in an interview with Diane Sawyer. The singer coined the term \"Crack is Whack,\" saying that she only used more expensive drugs.</p>"
+          "headline": "Extensión Chía",
+          "text": "Se crea la extensión de Chía mediante el Acuerdo N.º 003 del 27 de enero de 1999"
         }
       },
       {
         "media": {
-          "url": "https://youtu.be/KLk6mt8FMR0",
-          "caption": "Addiction expert, Dr. Drew, talks about Whitney's death and her struggle with addiction.",
-          "credit": "CNN"
+          "url": "https://www.ucundinamarca.edu.co/images/historia/historia9.jpg"
         },
         "start_date": {
-          "year": "2004"
+          "year": "1999"
         },
         "text": {
-          "headline": "Rehab",
-          "text": "<p>Houston entered rehab several times beginning in 2004. She declared herself drug free in an interview with Oprah Winfrey in 2009 but returned to rehab in 2011.</p>"
+          "headline": "Extensión Chocontá",
+          "text": "Se crea la extensión de Chocontá mediante el Acuerdo N.º 003 del 27 de enero de 1999"
         }
       },
       {
         "media": {
-          "url": "",
-          "caption": "",
-          "credit": ""
+          "url": "https://www.ucundinamarca.edu.co/images/historia/historia13.jpg"
         },
         "start_date": {
-          "year": "2005"
+          "year": "1999"
         },
         "text": {
-          "headline": "Being Bobby Brown",
-          "text": "<p>Being Bobby Brown was a reality show starring Brown and wife Whitney Houston. Houston refused to sign for a second season. A clip of her telling Brown to \"Kiss my ass,\" became a running gag on The Soup.</p>"
+          "headline": "Extensión Zipaquirá",
+          "text": "Se crea la extensión de Zipaquirá mediante el Acuerdo N.º 0027 de 1999"
         }
       },
       {
         "media": {
-          "url": "",
-          "caption": "",
-          "credit": ""
+          "url": "https://youtu.be/8tckNSzDiAI",
+          "caption": "Programa \"Soy 21 Web El Magazine\" Episodio Conmemoración 50 Años Sede Facatativá",
+          "credit": "<a href=\"https://www.youtube.com/channel/UCHAmWg53w4HyIXmD26AExog\">UCUNDINAMARCA TV</a>"
         },
         "start_date": {
-          "year": "2010"
+          "year": "2019"
         },
         "text": {
-          "headline": "A Rocky Comeback",
-          "text": "<p>Houston's comeback tour is cut short due to a diminished voice damaged by years of smoking. She was reportedly devastated at her inability to perform like her old self.</p>"
-        }
-      },
-      {
-        "media": {
-          "url": "//twitter.com/Blavity/status/851872780949889024",
-          "caption": "Houston, performing on Good Morning America in 2009.",
-          "credit": "<a href='http://commons.wikimedia.org/wiki/File%3AFlickr_Whitney_Houston_performing_on_GMA_2009_4.jpg'>Asterio Tecson</a> via Wikimedia"
-        },
-        "start_date": {
-          "month": "2",
-          "day": "11",
-          "year": "2012"
-        },
-        "text": {
-          "headline": "Whitney Houston<br/> 1963-2012",
-          "text": "<p>Houston, 48, was discovered dead at the Beverly Hilton Hotel on  on Feb. 11, 2012. She is survived by her daughter, Bobbi Kristina Brown, and mother, Cissy Houston.</p>"
+          "headline": "50 años",
+          "text": "Se celebran los 50 años de vida insitucional al servicio de la educación en Cundinamarca"
         }
       }
     ]

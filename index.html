@@ -15,6 +15,7 @@
     <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/timeline.css">
 </head>
 <body>
 
@@ -148,13 +149,9 @@
     <!--University timeline-->
     <section class="history container-fluid">
         <div class="timeline">
-            <div id='timeline-embed' style="width: 100%; height: 600px"></div>
-
+            <div id='timeline-embed'></div>
         </div>
-
     </section><!--End University timeline-->
-
-
 
     <!--University Headquarters-->
     <section class="container-fluid h-100 bg-green fg-white headquarters">
@@ -191,11 +188,7 @@
                     <div class="text" data-swiper-parallax="-100">
                         <p style="color: #fff;font-size: 1.1rem;">La Sede cuenta con una oferta académica de ocho programas de pregrado, cinco especializaciones y dos maestrías presenciales. En 2016, se abrió el primer posgrado virtual de la institución, que puede ser cursado desde cualquier lugar del mundo.
                         </p>
-                        
-
-
-
-                        
+     
                     </div>
                     
                 </div>
@@ -303,7 +296,16 @@
           },
         });
       </script>
-    
+        <script type="text/javascript">
+            var additionalOptions = {
+              default_bg_color: {r:254, g:254, b:227},
+              language: "es",
+              font: null
+            }
+        // make_the_json() is some javascript function you've written
+        // which creates the appropriate JSON configuration
+        window.timeline = new TL.Timeline('timeline-embed', 'timeline.json',additionalOptions);
+    </script>
     
 </body>
 </html>

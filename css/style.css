@@ -208,92 +208,15 @@ h2 {
 }
 
 .timeline {
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     border: 1px solid #1d1d1d;
     border-radius: 20px;
 }
 
-.tl-timeline {
-    background-color: #fefee3;
-}
-
-.tl-timenav {
-    background-color: #fefee3;
-    color: #1d1d1d;
-}
-.tl-timeaxis{
-    color: #1d1d1d;
-}
-
-.tl-timenav-slider{
-    background-color: #fefee3;
-
-}
-
-.tl-timeaxis-background
-{
-    background-color: #fefee3;
-}
-
-.tl-timemarker.tl-timemarker-active .tl-timemarker-content-container
-{
-    background-color: #1d1d1d;
-}
-.tl-timenav  {
-    border-top: 1px solid #1d1d1d;
-}
-
-.tl-timeaxis-background {
-    border-top: 1px solid #1d1d1d;
-}
-
-.tl-timemarker .tl-timemarker-content-container {
-    background-color: #fefee3;
-}
-
-.tl-slidenav-previous .tl-slidenav-content-container.tl-slidenav-inverted .tl-slidenav-icon, .tl-slidenav-next .tl-slidenav-content-container.tl-slidenav-inverted .tl-slidenav-icon, .tl-slidenav-previous .tl-slidenav-content-container.tl-slidenav-inverted .tl-slidenav-title, .tl-slidenav-next .tl-slidenav-content-container.tl-slidenav-inverted .tl-slidenav-title, .tl-slidenav-previous .tl-slidenav-content-container.tl-slidenav-inverted .tl-slidenav-description, .tl-slidenav-next .tl-slidenav-content-container.tl-slidenav-inverted .tl-slidenav-description
-{
-    color: #1d1d1d;
-    text-shadow: none;
-}
-
-/*Active*/
-.tl-timemarker.tl-timemarker-active .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container [class^="tl-icon-"], .tl-timemarker.tl-timemarker-active .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container [class*=" tl-icon-"]
-{
-    color: #fefee3;
-}
-
-.tl-timemarker.tl-timemarker-active .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline
-{
-    color: #fefee3;
-}
-
-.tl-timeaxis 
-.tl-timeaxis-content-container 
-.tl-timeaxis-minor 
-.tl-timeaxis-tick
-{
-    color: #1d1d1d;
-}
-
-.tl-timeaxis 
-.tl-timeaxis-content-container 
-.tl-timeaxis-major 
-.tl-timeaxis-tick
-{
-    color:#1d1d1d;
-}
-
-.tl-timemarker
-.tl-timemarker-active 
-.tl-timemarker-content-container
-{
-    background-color: #fefee3;
-}
-
-.tl-timeline h1, .tl-timeline h2, .tl-timeline h3, 
-.tl-timeline h4, .tl-timeline h5, .tl-timeline h6 {
-    color: #1d1d1d;
+#timeline-embed {
+    width: 100%; 
+    height: 600px; 
 }
 
 /*Headquarters section*/
@@ -398,11 +321,7 @@ h2 {
     padding: 40px 60px;
   }
 
-  
-
- 
-  
-  .parallax-bg {
+.parallax-bg {
     position: absolute;
     left: 0;
     top: 0;
@@ -412,7 +331,7 @@ h2 {
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-  }
+}
 
 
 
