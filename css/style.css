@@ -43,36 +43,44 @@ h2 {
 }
 
 /*Colors*/
+.bg-black{
+    background-color: #1d1d1d!important;
+}
+
+.fg-black{
+    color: #1d1d1d!important;
+}
+
 .bg-white{
-    background-color: #fefee3;
+    background-color: #fefee3!important;
 }
 
 .fg-white{
-    color: #fefee3;
+    color: #fefee3!important;
 }
 
 .bg-green{
-    background-color: #2c6e49;
+    background-color: #2c6e49!important;
 }
 
 .fg-green{
-    color: #2c6e49;
+    color: #2c6e49!important;
 }
 
 .bg-softgreen{
-    background-color: #4c956c;
+    background-color: #4c956c!important;
 }
 
 .fg-softgreen{
-    color: #4c956c;
+    color: #4c956c!important;
 }
 
 .bg-yellow{
-    background-color: #fffd8d;
+    background-color: #fffd8d!important;
 }
 
 .fg-yellow{
-    color: #fffd8d;
+    color: #fffd8d!important;
 }
 /*End colors*/
 
@@ -193,15 +201,38 @@ h2 {
 /*Objectives*/
 
 .objectives {
-    padding-top: 3rem;
-    padding-bottom: 25  vh;
-    padding-left: 3rem;
+    padding: 3rem 0 10vh 3rem;
+}
+
+/*Mision/Vision*/
+
+.misionvision {
+    padding: 10vh 6rem 10vh 6rem;
+    color: #fefee3;
+}
+
+.misionvision h1,
+.misionvision h2 {
+    margin: 0 1vw 0 0;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+
+.misionvision .vl {
+    border-left: 1px solid;
+    opacity: .25;
+    height: 32vh;
+    max-width: 1px;
+}
+
+.misionvision p {
+    padding-left: 1vw;
 }
 
 /*Timeline*/
 
 .history {
-    padding: 15vh 6rem 20vh 6rem;
+    padding: 10vh 6rem 10vh 6rem;
 }
 
 .timeline {
@@ -220,7 +251,7 @@ h2 {
 
 .headquarters{
     height: 100%;
-    padding: 5rem 6rem 5rem 6rem;
+    padding: 10vh 6rem 5rem 6rem;
 }
 
 /*Swiper*/
@@ -239,6 +270,11 @@ h2 {
     box-sizing: border-box;
     padding: 40px 60px;
     backdrop-filter: blur(0.5px);
+}
+
+.swipertext{
+    background-color: #2c6e49;
+    height: 30vh;
 }
 
 .swiperimg {
