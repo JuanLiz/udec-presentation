@@ -84,41 +84,13 @@ h2 {
     margin-left: 0;
 }
 
-.vl {
-    border-left: 2px solid;
-    height: 200px;
-    max-width: 1px;
-  }
-
-.blankdiv {
-    padding: 27vh;
-}
-
-.about{
-    padding-top: 15vh;
-    padding-bottom: 20vh;
-
-}
-
-.fixedimg{
-	position: sticky;
-    text-align: justify;
-	top: 20%;
-	box-sizing:content-box;
-}
-
-.fixedimg img{
-    width:700px;
-	border-radius:70px;
-}
-
+/*Cover*/
 .portada{
     margin: 0;
     padding: 0;
     min-height: 100vh;
     background-color: #2c6e49;
 }
- 
 
 .cover {
     margin: 0;
@@ -192,11 +164,139 @@ h2 {
     letter-spacing: 2px;
 }
 
+/*About Section*/
+
+.vl {
+    border-left: 2px solid;
+    height: 200px;
+    max-width: 1px;
+  }
+
+.blankdiv {
+    padding: 27vh;
+}
+
+.about{
+    padding-top: 15vh;
+    padding-bottom: 20vh;
+}
+
+.fixedimg{
+	position: sticky;
+    text-align: justify;
+	top: 20%;
+	box-sizing:content-box;
+}
+
+.fixedimg img{
+    width:700px;
+	border-radius:20px;
+}
+
+/*Objectives*/
+
 .objectives {
     padding-top: 3rem;
-    padding-bottom: 25vh;
+    padding-bottom: 25  vh;
     padding-left: 3rem;
 }
+
+/*Timeline*/
+
+.history {
+    padding: 15vh 6rem 20vh 6rem;
+}
+
+.timeline {
+    padding: 2rem;
+    border: 1px solid #1d1d1d;
+    border-radius: 20px;
+}
+
+.tl-timeline {
+    background-color: #fefee3;
+}
+
+.tl-timenav {
+    background-color: #fefee3;
+    color: #1d1d1d;
+}
+.tl-timeaxis{
+    color: #1d1d1d;
+}
+
+.tl-timenav-slider{
+    background-color: #fefee3;
+
+}
+
+.tl-timeaxis-background
+{
+    background-color: #fefee3;
+}
+
+.tl-timemarker.tl-timemarker-active .tl-timemarker-content-container
+{
+    background-color: #1d1d1d;
+}
+.tl-timenav  {
+    border-top: 1px solid #1d1d1d;
+}
+
+.tl-timeaxis-background {
+    border-top: 1px solid #1d1d1d;
+}
+
+.tl-timemarker .tl-timemarker-content-container {
+    background-color: #fefee3;
+}
+
+.tl-slidenav-previous .tl-slidenav-content-container.tl-slidenav-inverted .tl-slidenav-icon, .tl-slidenav-next .tl-slidenav-content-container.tl-slidenav-inverted .tl-slidenav-icon, .tl-slidenav-previous .tl-slidenav-content-container.tl-slidenav-inverted .tl-slidenav-title, .tl-slidenav-next .tl-slidenav-content-container.tl-slidenav-inverted .tl-slidenav-title, .tl-slidenav-previous .tl-slidenav-content-container.tl-slidenav-inverted .tl-slidenav-description, .tl-slidenav-next .tl-slidenav-content-container.tl-slidenav-inverted .tl-slidenav-description
+{
+    color: #1d1d1d;
+    text-shadow: none;
+}
+
+/*Active*/
+.tl-timemarker.tl-timemarker-active .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container [class^="tl-icon-"], .tl-timemarker.tl-timemarker-active .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container [class*=" tl-icon-"]
+{
+    color: #fefee3;
+}
+
+.tl-timemarker.tl-timemarker-active .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline
+{
+    color: #fefee3;
+}
+
+.tl-timeaxis 
+.tl-timeaxis-content-container 
+.tl-timeaxis-minor 
+.tl-timeaxis-tick
+{
+    color: #1d1d1d;
+}
+
+.tl-timeaxis 
+.tl-timeaxis-content-container 
+.tl-timeaxis-major 
+.tl-timeaxis-tick
+{
+    color:#1d1d1d;
+}
+
+.tl-timemarker
+.tl-timemarker-active 
+.tl-timemarker-content-container
+{
+    background-color: #fefee3;
+}
+
+.tl-timeline h1, .tl-timeline h2, .tl-timeline h3, 
+.tl-timeline h4, .tl-timeline h5, .tl-timeline h6 {
+    color: #1d1d1d;
+}
+
+/*Headquarters section*/
 
 .headquarters{
     height: 100%;
@@ -204,6 +304,7 @@ h2 {
 }
 
 /*Swiper*/
+
 .swiper {
     width: 100%;
     height: 80vh;
@@ -216,7 +317,17 @@ h2 {
     object-fit: cover;
 }
 
-/*Infinite carousel*/
+.slideImg img{
+    margin-left: 18px;
+
+}
+
+.programas{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+/*Infinite carousel
 @-webkit-keyframes scroll {
     0% {
       -webkit-transform: translateX(0);
@@ -270,15 +381,7 @@ h2 {
     display: flex;
     width: calc(250px );
 }
- 
+*/
 
-.slideImg img{
-    margin-left: 18px;
 
-}
-
-.programas{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
 
