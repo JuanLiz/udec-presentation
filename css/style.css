@@ -38,8 +38,6 @@ h3, h4 {
     line-height: 0.9;  
 }
 
-
-
 @media screen and (min-width: 1400px) {
     body {
         font-size: x-large;
@@ -212,6 +210,39 @@ h3, h4 {
     padding: 3rem 0 10vh 3rem;
 }
 
+/*MEDIT*/
+
+.medit {
+    padding: 10vh 6rem 20vh 6rem;
+}
+
+.aboutmedit {
+    padding-bottom: 10vh;
+}
+
+.medit .card {
+    height: 85vh;
+}
+
+.medit .card h3 {
+    font-size: 1.8rem;
+}
+
+@media screen and (min-width: 1400px) {
+    .medit .card h3 {
+        font-size: 3rem;
+    }
+}
+
+.medit .card.outline{
+    border: 3px solid #4c956c;
+}
+
+.medit .card .lottie {
+    padding-top: 2rem;
+    height: 25vh;
+}
+
 /*Mision/Vision*/
 
 .misionvision {
@@ -287,6 +318,7 @@ h3, h4 {
 }
 
 .swipertext{
+    
     background-color: #2c6e49;
 
 }
@@ -341,8 +373,8 @@ h3, h4 {
 
 
 
-/*Infinite carousel
-@-webkit-keyframes scroll {
+/*Infinite carousel RTL*/
+@-webkit-keyframes textscroll {
     0% {
       -webkit-transform: translateX(0);
               transform: translateX(0);
@@ -353,7 +385,7 @@ h3, h4 {
     }
 }
   
-@keyframes scroll {
+@keyframes textscroll {
     0% {
       -webkit-transform: translateX(0);
               transform: translateX(0);
@@ -364,12 +396,17 @@ h3, h4 {
     }
 }
 
-.slider {
+.textslider {
     background: pr;
     height: 100px;
     overflow: hidden;
 }
-.slider::before, .slider::after {
+
+.textslider h1, .textslider h2 {
+    font-size: 2.5rem;
+}
+
+.textslider::before, .textslider::after {
 
     height: 100px;
     position: absolute;
@@ -377,21 +414,82 @@ h3, h4 {
     z-index: 2;
 }
 
-.slider::after {
+.textslider::after {
     right: 0;
     top: 0;
     -webkit-transform: rotateZ(180deg);
             transform: rotateZ(180deg);
 }
 
-.slider::before {
+.textslider::before {
     left: 0;
     top: 0;
 }
 
-.slider .slide-track {
-    -webkit-animation: scroll 40s linear infinite;
-            animation: scroll 40s linear infinite;
+.textslider .slide-track {
+    -webkit-animation: textscroll 40s linear infinite;
+            animation: textscroll 40s linear infinite;
     display: flex;
-    width: calc(250px );
-}*/
+    width: calc(250px *7);
+}
+
+/*Infinite carousel LTR*/
+@-webkit-keyframes textscrollr {
+
+    0% {
+      -webkit-transform: translateX(calc(-250px * 7));
+              transform: translateX(calc(-250px * 7));
+    }
+    100% {
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+      }
+}
+  
+@keyframes textscrollr {
+    0% {
+        transform: translateX(calc(-250px * 7));
+      -webkit-transform: translateX(calc(-250px * 7));
+    }
+    100% {
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+      }
+}
+
+.textslider-r {
+    background: pr;
+    height: 100px;
+    overflow: hidden;
+}
+
+.textslider-r h1, .textslider-r h2 {
+    font-size: 2.5rem;
+}
+
+.textslider-r::before, .textslider-r::after {
+
+    height: 100px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+}
+
+.textslider-r::after {
+    right: 0;
+    top: 0;
+    -webkit-transform: rotateZ(180deg);
+            transform: rotateZ(180deg);
+}
+
+.textslider-r::before {
+    left: 0;
+    top: 0;
+}
+
+.textslider-r .slide-track {
+    -webkit-animation: textscrollr 40s linear infinite;
+            animation: textscrollr 40s linear infinite;
+    display: flex;
+    width: calc(250px *7);
+}
