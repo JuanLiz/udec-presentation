@@ -38,6 +38,15 @@ h3, h4 {
     line-height: 0.9;  
 }
 
+h6 {
+    font-family: 'Eastman Roman', sans-serif;
+    color: #1d1d1d;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 0.9;  
+}
+
+
 @media screen and (min-width: 1400px) {
     body {
         font-size: x-large;
@@ -290,7 +299,7 @@ h3, h4 {
 
 .headquarters{
     height: 100%;
-    padding: 10vh 6rem 5rem 6rem;
+    padding: 10vh 6rem 2rem 6rem;
 }
 
 /*Main card*/
@@ -318,9 +327,8 @@ h3, h4 {
 }
 
 .swipertext{
-    
+    height: 15vh;
     background-color: #2c6e49;
-
 }
 
 .swiperimg {
