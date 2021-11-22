@@ -230,7 +230,7 @@ h6 {
 }
 
 .medit .card {
-    height: 85vh;
+    height: 100%;
 }
 
 .medit .card h3 {
@@ -251,135 +251,6 @@ h6 {
     padding-top: 2rem;
     height: 25vh;
 }
-
-/*Mision/Vision*/
-
-.misionvision {
-    padding: 10vh 6rem 10vh 6rem;
-    color: #fefee3;
-}
-
-.misionvision h1,
-.misionvision h2 {
-    margin: 0 1vw 0 0;
-    writing-mode: vertical-lr;
-    transform: rotate(180deg);
-}
-
-.misionvision .vl {
-    border-left: 1px solid;
-    opacity: .25;
-    height: 32vh;
-    max-width: 1px;
-}
-
-.misionvision p {
-    padding-left: 1vw;
-}
-
-/*Timeline*/
-
-.history {
-    padding: 10vh 6rem 10vh 6rem;
-}
-
-.timeline {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    border: 1px solid #1d1d1d;
-    border-radius: 20px;
-}
-
-#timeline-embed {
-    width: 100%; 
-    height: 70vh; 
-}
-
-/*Headquarters section*/
-
-.headquarters{
-    height: 100%;
-    padding: 10vh 6rem 2rem 6rem;
-}
-
-/*Main card*/
-.card {
-    border-radius: 20px;
-}
-
-
-/*Swiper*/
-.swiper {
-    width: 100%;
-    height: 100%;
-    background: #2c6e49;
-  }
-
-.swiper-slide {
-    width: 100%;
-    height: 75vh;
-    font-size: 18px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    backdrop-filter: blur(0.5px);
-    background-color: #2c6e49;
-
-}
-
-.swipertext{
-    height: 15vh;
-    background-color: #2c6e49;
-}
-
-.swiperimg {
-    background-repeat:repeat-x;
-    animation: animatedBackground 15s linear alternate infinite;
-}
-
-@keyframes animatedBackground {
-    0% { background-position: 0 0; }
-    50% { background-position: 0 50%; }
-    100% { background-position: 0 0; }
-}
-
-.blur{
-    top: 0%;
-    left: 0%;
-    position: absolute;
-    background: rgba( 255, 255, 255, 0.2 );
-    backdrop-filter: blur( 0px );
-    -webkit-backdrop-filter: blur( 0px );
-    width: 100%;
-    height: 80vh;
-}
-
-.title h1{
-    color: #1d1d1d; 
-    margin-top: 15%;
-    margin-left: 5%;
-}
-
-.subtitle h1{
-    color: #1d1d1d;
-    margin-top: 3%;
-    margin-left: 5%;
-}
-
-.parallax-bg {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 130%;
-    height: 100%;
-    -webkit-background-size: cover;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-
-
-
 
 /*Infinite carousel RTL*/
 @-webkit-keyframes textscroll {
@@ -500,4 +371,141 @@ h6 {
             animation: textscrollr 40s linear infinite;
     display: flex;
     width: calc(250px *7);
+}
+
+/*Mision/Vision*/
+
+.misionvision {
+    padding: 10vh 6rem 10vh 6rem;
+    color: #fefee3;
+}
+
+.misionvision h1,
+.misionvision h2 {
+    margin: 0 1vw 0 0;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+
+.misionvision .vl {
+    border-left: 1px solid;
+    opacity: .25;
+    height: 32vh;
+    max-width: 1px;
+}
+
+.misionvision p {
+    padding-left: 1vw;
+}
+
+/*Timeline*/
+
+.history {
+    padding: 10vh 6rem 10vh 6rem;
+}
+
+.timeline {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border: 1px solid #1d1d1d;
+    border-radius: 20px;
+}
+
+#timeline-embed {
+    width: 100%; 
+    height: 70vh; 
+}
+
+/*Identity*/
+
+.identity {
+    padding: 10vh 6rem 10vh 6rem;
+}
+
+
+/*Headquarters section*/
+
+.headquarters{
+    height: 100%;
+    padding: 10vh 6rem 10vh 6rem;
+}
+
+/*Main card*/
+.card {
+    border-radius: 20px;
+}
+
+
+/*Swiper*/
+.swiper {
+    width: 100%;
+    height: 100%;
+    background: #2c6e49;
+  }
+
+.swiper-slide {
+    width: 100%;
+    height: 75vh;
+    font-size: 18px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    backdrop-filter: blur(0.5px);
+    background-color: #2c6e49;
+
+}
+
+.swipertext{
+    height: 15vh;
+    background-color: #2c6e49;
+}
+
+.swiperimg {
+    background-repeat:repeat-x;
+    animation: animatedBackground 15s linear alternate infinite;
+}
+
+@keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    50% { background-position: 0 50%; }
+    100% { background-position: 0 0; }
+}
+
+.blur{
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    background: rgba( 255, 255, 255, 0.2 );
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    width: 100%;
+    height: 80vh;
+}
+
+.title h1{
+    color: #1d1d1d; 
+    margin-top: 15%;
+    margin-left: 5%;
+}
+
+.subtitle h1{
+    color: #1d1d1d;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.parallax-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*Wellbeing*/
+.wellbeing {
+    padding: 10vh 6rem 10vh 6rem;
 }
