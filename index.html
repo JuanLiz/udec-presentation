@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Universidad de Cundinamarca</title>
+    <link rel="shortcut icon" href="./img/Escudo_Universidad_de_Cundinamarca.png" type="image/x-icon">
     
     <!--Stylesheets-->
     <!--LINK DEL FAVICON-->
@@ -17,6 +18,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/timeline.css">
     <link rel="stylesheet" href="css/infinityCarousel.css">
+    <link rel="stylesheet" href="css/tab.css">
 </head>
 <body>
 
@@ -666,47 +668,206 @@
             En la UDEC buscamos planear, promover y ejecutar programas que busquen el mejoramiento de la calidad de vida de la comunidad universitaria, contribuyendo al desarrollo humano y a la formación integral, a través de actividades deportivas, culturales, recreativas, de promoción y prevención, así como estrategias que busquen fortalecer la permanencia de los estudiantes que hacen parte de la comunidad
         </p>
         <!--Icons-->
-        <div class="icons nomargin row gx-2 py-5 justify-content-center">
-            <div class="col-sm-2 text-center">
-                <button type="button" class="btn btn-primary btn-circle btn-xl" data-bs-toggle="modal" data-bs-target="#apoyoModal">
+        <div class="icons nomargin row gx-3 py-5 justify-content-center">
+            <div class="col-sm-3 text-center">
+                <button type="button" class="btn btn-primary shadow-none btn-circle btn-xl" data-bs-toggle="modal" data-bs-target="#apoyoModal">
                     <i class="fas fa-coins"></i>
                 </button>
                 <h3 class="pt-3">Apoyo económico</h3>
             </div>
-            <div class="col-sm-2 text-center">
-                <button type="button" class="btn btn-primary btn-circle btn-xl" data-bs-toggle="modal" data-bs-target="#arteModal">
-                    <i class="fas fa-palette"></i>
+            <div class="col-sm-3 text-center">
+                <button type="button" class="btn btn-primary shadow-none btn-circle btn-xl" data-bs-toggle="modal" data-bs-target="#convenioModal">
+                    <i class="fa fa-handshake-o"></i>
                 </button>
-                <h3 class="pt-3">Arte y cultura</h3>
+                <h3 class="pt-3">Convenios</h3>
+            </div>
+            <div class="col-sm-3 text-center">
+                <button type="button" class="btn btn-primary shadow-none btn-circle btn-xl" data-bs-toggle="modal" data-bs-target="#arteModal">
+                    <i class="fa fa-users"></i>
+                </button>
+                <h3 class="pt-3">Servicios</h3>
             </div>
         </div><!--End Icons-->
         <!--Modals-->
         <!-- Apoyo economico Modal -->
-        <div class="modal fade" id="apoyoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="apoyoModal" tabindex="-1"  aria-hidden="true">
             <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                 <h3 class="modal-title">Apoyo económico</h3>
                 </div>
                 <div class="modal-body">
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. A optio sed fuga tempora sint totam suscipit dolorum dignissimos porro aperiam, ullam quos earum delectus necessitatibus, atque, ad facilis laudantium consequatur.
-                </p>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <!-- Tabs nav -->
+                            <div class="nav flex-column nav-pills nav-pills-custom" id="v-pills-tab-apoyo" role="tablist" aria-orientation="vertical">
+                                <a class="nav-link mb-3 p-3 shadow active" id="v-pills-tipeA-tab" data-toggle="pill" href="#v-pills-tipeA" role="tab" >
+                                    <span class="font-weight-bold small text-uppercase">Exoneración de matrícula tipo A: 100% de la matrícula</span></a>
+            
+                                <a class="nav-link mb-3 p-3 shadow" id="v-pills-tipeB-tab" data-toggle="pill" href="#v-pills-tipeB" role="tab" >
+                                    
+                                    <span class="font-weight-bold small text-uppercase">Exoneración de matrícula tipo B: 50% de la matrícula</span></a>
+            
+                                <a class="nav-link mb-3 p-3 shadow" id="v-pills-restaurante-tab" data-toggle="pill" href="#v-pills-restaurante" role="tab">
+                                    
+                                    <span class="font-weight-bold small text-uppercase">Restaurante Universitario</span></a>
+            
+                                <a class="nav-link mb-3 p-3 shadow" id="v-pills-plan-tab" data-toggle="pill" href="#v-pills-plan" role="tab">
+                                    
+                                    <span class="font-weight-bold small text-uppercase">Plan complementario</span></a>
+                                <a class="nav-link mb-3 p-3 shadow" id="v-pills-hogar-tab" data-toggle="pill" href="#v-pills-hogar" role="tab">
+                                    
+                                    <span class="font-weight-bold small text-uppercase">Hogar Universitario</span></a>
+                                <a class="nav-link mb-3 p-3 shadow" id="v-pills-dia-tab" data-toggle="pill" href="#v-pills-dia" role="tab">
+                                    
+                                    <span class="font-weight-bold small text-uppercase">Plan día de Alimentación</span></a>
+                                </div>
+                        </div>
+            
+            
+                        <div class="col-md-8">
+                            <!-- Tabs content -->
+                            <div class="tab-content" id="v-pills-tabContent-apoyo">
+                                <div class="tab-pane fade shadow rounded bg-white show active p-5" id="v-pills-tipeA" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                                    <h4 class="title-tab font-italic mb-4">Exoneración de matrícula tipo A: 100% de la matrícula</h4>
+                                    <p class="font-italic text-muted mb-2">Auxilio económico del 100% destinado para el pago de la matrícula del semestre.</p>
+                                    <div class="image-tab">
+
+                                    </div>
+                                </div>
+                                
+                                <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-tipeB" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                                    <h4 class="title-tab font-italic mb-4">Exoneración de matrícula tipo B: 50% de la matrícula</h4>
+                                    <p class="font-italic text-muted mb-2">Auxilio económico del 50% destinado para el pago de la matrícula del semestre</p>
+                                </div>
+                                
+                                <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-restaurante" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                                    <h4 class="title-tab font-italic mb-4">Restaurante Universitario</h4>
+                                    <p class="font-italic text-muted mb-2"> Se ofrece ayuda para que el estudiante pueda tomar un complemento a la alimentación diaria, en los días hábiles durante el periodo académico</p>
+                                </div>
+                                
+                                <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-plan" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                                    <h4 class="title-tab font-italic mb-4">Plan complementario</h4>
+                                    <p class="font-italic text-muted mb-2">Se ofrece ayuda para que el estudiante pueda tomar un complemento a la alimentación diaria, en los días hábiles durante el periodo académico. 
+                                    </p>
+                                </div>
+                                <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-hogar" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                                    <h4 class="title-tab font-italic mb-4">Hogar Universitario</h4>
+                                    <p class="font-italic text-muted mb-2">Consiste en proporcionar ayuda para el alojamiento y la alimentación durante el periodo académico. </p>
+                                </div>
+                                <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-dia" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                                    <h4 class="title-tab font-italic mb-4">Plan día de alimentación</h4>
+                                    <p class="font-italic text-muted mb-2">Se ofrece ayuda para que el estudiante pueda tomar el desayuno, almuerzo y cena en los días hábiles durante el período académico.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            </div>
-        </div>        
-        <!-- Arte Modal -->
-        <div class="modal fade" id="arteModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        </div>
+        </div>
+
+           <!-- Convenio Modal -->
+           <div class="modal fade" id="convenioModal" tabindex="-1"  aria-hidden="true">
             <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                <h3 class="modal-title">Arte y cultura</h3>
+                <h3 class="modal-title">Convenios</h3>
                 </div>
                 <div class="modal-body">
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. A optio sed fuga tempora sint totam suscipit dolorum dignissimos porro aperiam, ullam quos earum delectus necessitatibus, atque, ad facilis laudantium consequatur.
-                </p>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <!-- Tabs nav -->
+                            <div class="nav flex-column nav-pills nav-pills-custom" id="v-pills-tab-convenios" role="tablist" aria-orientation="vertical">
+                                <a class="nav-link mb-3 p-3 shadow active" id="v-pills-equidad-tab" data-toggle="pill" href="#v-pills-equidad" role="tab" >
+                                    <span class="font-weight-bold small text-uppercase">Convenio de Generación E componente Equidad</span></a>
+            
+                                <a class="nav-link mb-3 p-3 shadow" id="v-pills-jovenes-tab" data-toggle="pill" href="#v-pills-jovenes" role="tab" >
+                                    
+                                    <span class="font-weight-bold small text-uppercase">Jóvenes en Acción</span></a>
+            
+                                <a class="nav-link mb-3 p-3 shadow" id="v-pills-vida-tab" data-toggle="pill" href="#v-pills-vida" role="tab" >
+                                    
+                                    <span class="font-weight-bold small text-uppercase">Convenio Fondo Administración Transformado Vidas</span></a>
+            
+                            </div>
+                        </div>
+            
+            
+                        <div class="col-md-8">
+                            <!-- Tabs content -->
+                            <div class="tab-content" id="v-pills-tabContent-convenios">
+                                <div class="tab-pane fade shadow rounded bg-white show active p-5" id="v-pills-equidad" role="tabpanel" >
+                                    <h4 class="title-tab font-italic mb-4">Convenio de Generación E componente Equidad</h4>
+                                    <p class="font-italic text-muted mb-2"> Equidad subsidia el valor de la matrícula cobrado por las Instituciones de Educación Superior públicas para programas de pregrado con registro calificado vigente (programa técnico profesional, tecnológico o universitario) bajo cualquier metodología (presencial, distancia o virtual).</p>
+                                </div>
+                                
+                                <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-jovenes" role="tabpanel" >
+                                    <h4 class="title-tab font-italic mb-4">Jóvenes en Acción</h4>
+                                    <p class="font-italic text-muted mb-2"> Programa de Prosperidad Social que apoya a los jóvenes en condición de pobreza y vulnerabilidad, con la entrega de transferencias monetarias condicionadas –TMC-, para que puedan continuar sus estudios técnicos, tecnológicos y profesionales.
+                                    </p>
+                                </div>
+                                <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-vida" role="tabpanel">
+                                    <h4 class="title-tab font-italic mb-4">Convenio Fondo Administración Transformado Vidas</h4>
+                                    <p class="font-italic text-muted mb-2">Programa de la Gobernación de Cundinamarca, que tiene como finalidad promover el ingreso y la permanencia de los Cundinamarqueses a la Educación superior, a través de la adjudicación de créditos condonables con estrategias como Gratuidad, Matricula, Excelencia académica, mérito Deportivo y Cultural. Adicionalmente con la asignación de subsidios como sostenimiento o transporte y admisión el fondo busca la disminución de la deserción en la educación Superior.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+              
+        <!-- servicios -->
+        <div class="modal fade" id="arteModal" tabindex="-1"  aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h3 class="modal-title">SERVICIOS</h3>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <!-- Tabs nav -->
+                            <div class="nav flex-column nav-pills nav-pills-custom" id="v-pills-tab-servicio" role="tablist" aria-orientation="vertical">
+                                <a class="nav-link mb-3 p-3 shadow active" id="v-pills-arte-tab" data-toggle="pill" href="#v-pills-arte" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                                    <span class="font-weight-bold small text-uppercase">Arte y Cultura</span></a>
+            
+                                <a class="nav-link mb-3 p-3 shadow" id="v-pills-fisica-tab" data-toggle="pill" href="#v-pills-fisica" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                                    
+                                    <span class="font-weight-bold small text-uppercase">ACTIVIDAD FÍSICA, RECREACIÓN Y DEPORTE</span></a>
+            
+                                <a class="nav-link mb-3 p-3 shadow" id="v-pills-salud-tab" data-toggle="pill" href="#v-pills-salud" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                                    
+                                    <span class="font-weight-bold small text-uppercase">Saludable</span></a>
+            
+                                </div>
+                        </div>
+            
+            
+                        <div class="col-md-8">
+                            <!-- Tabs content -->
+                            <div class="tab-content" id="v-pills-tabContent-servicio">
+                                <div class="tab-pane fade shadow rounded bg-white show active p-5" id="v-pills-arte" role="tabpanel" >
+                                    <h4 class="title-tab font-italic mb-4">Arte y Cultura</h4>
+                                    <p class="font-italic text-muted mb-2">En este espacio encontrarás las diferentes experiencias destacadas en el ámbito artístico y cultural en nuestro contexto universitario, las cuales te permitirán sentir desde cualquier parte donde te encuentres las diversas expresiones, con variedad de componentes de entretenimiento y aprendizaje.</p>
+                                </div>
+                                
+                                <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-fisica" role="tabpanel" >
+                                    <h4 class="title-tab font-italic mb-4">ACTIVIDAD FÍSICA, RECREACIÓN Y DEPORTE</h4>
+                                    <p class="font-italic text-muted mb-2">Encontrarás diversas actividades que te pueden ayudar al mejoramiento de la calidad de vida por medio de la actividad física, recreación y deporte.</p>
+                                </div>
+                                
+                                <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-salud" role="tabpanel">
+                                    <h4 class="title-tab font-italic mb-4">SALUDABLE</h4>
+                                    <p class="font-italic text-muted mb-2">Este espacio se diseña a partir de la política de Bienestar, con el fin de contribuir a los procesos de formación y aprendizaje, promoviendo así el desarrollo individual y colectivo de los estudiantes, los profesores, los graduados, los administrativos y la comunidad en general, como personas promotoras de hábitos de vida saludable, calidad de vida, desarrollo humano y comunitario</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             </div>
@@ -735,72 +896,9 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     
-    <script>
-        let cloud= document.getElementById('cloud1');
-        let cloud2= document.getElementById('cloud2');
-        let cloud3= document.getElementById('cloud3');
-        let college= document.getElementById('universidad');
-        let text= document.getElementById('text');
-        let text2= document.getElementById('text2');
-
-        window.addEventListener('scroll', function () {
-            let value= window.scrollY;
-            cloud.style.top = value*0.45 + 'px';
-            cloud2.style.top = value*0.45 + 'px';
-            cloud3.style.top = value*0.45 + 'px';
-            college.style.top = value *-0.5+ 'px';
-            text.style.marginLeft = value * 0.2+ 'px';
-            text2.style.marginLeft = value * 0.2+ 'px';
-        })
-    </script>
-    <script>
-        AOS.init();
-    </script>
-    <script>
-        var swiper = new Swiper(".mySwiper", {
-          spaceBetween: 30,
-          centeredSlides: true,
-          autoplay: {
-            delay: 5500,
-            disableOnInteraction: false,
-          },
-          pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-          },
-          navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-          },
-        });
-    </script>
-    <script type="text/javascript">
-        var additionalOptions = {
-            default_bg_color: {r:254, g:254, b:227},
-            language: "es",
-            font: null
-        }
-        window.timeline = new TL.Timeline('timeline-embed', 'timeline.json',additionalOptions);
-    </script>
-    <script>
-        $(function() {
-
-$(".btn").on("click", function() {
-  //hide all sections
-  $(".content-section").hide();
-  //show the section depending on which button was clicked
-  $("#" + $(this).attr("data-section")).show();
-});
-
-});
-    </script>
-    <script>
-        var myModal = document.getElementById('exampleModal')
-var myInput = document.getElementById('myInput')
-
-myModal.addEventListener('shown.bs.modal', function () {
-  myInput.focus()
-})
-    </script>
+    <script src="./app/app.js"></script>
+ 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 </body>
 </html>

@@ -603,6 +603,13 @@ h6 {
     background-color: #1d1d1d;
     color: #fffd8d;
 }
+
 .modal-content h3 {
     font-size: 2rem;
 }
+
+.modal-dialog{
+    max-width: 1000px;
+    min-height: auto;
+}
+
