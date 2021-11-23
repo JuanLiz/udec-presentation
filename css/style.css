@@ -422,6 +422,59 @@ h6 {
     padding: 10vh 6rem 10vh 6rem;
 }
 
+.identity h3{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.buttondiv {
+    border: 3px solid #1d1d1d;
+    border-radius: 45px;
+    height: 86px;
+}
+
+.identity .btn-primary {
+    background-color: #fefee3;
+    border: 0px;
+    color: #1d1d1d;
+    border-radius: 40px;
+    height: 80px;
+}
+
+.identity .btn-primary:focus,
+.identity .btn-primary:active,
+.identity .btn-primary:hover,
+.identity .btn-primary.active {
+    background-color: #1d1d1d;
+    border: 0;
+    color: #fefee3;
+    height: 80px;
+
+}
+
+.identity .btn {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.btn-label {
+	position: relative;
+	display: inline-block;
+}
+
+.identity .btn span {
+    font-size: 1.3rem;
+}
+
+.identity .btn i {
+    font-size: 2rem;
+
+}
+
+.content-section {
+    padding: 3rem  0px 3rem 0;
+    display: none;
+}
 
 /*Headquarters section*/
 
@@ -506,6 +559,50 @@ h6 {
 }
 
 /*Wellbeing*/
+
 .wellbeing {
     padding: 10vh 6rem 10vh 6rem;
+}
+
+.wellbeing .icons h3 {
+    font-size: 1.4rem;
+}
+
+.icons .btn-primary {
+    background-color: rgba( 29, 29, 29, 1 );
+    border: 0px;
+    color: #fefee3;
+    border-radius: 40px;
+
+}
+
+.icons .btn-primary:focus,
+.icons .btn-primary:active,
+.icons .btn-primary:hover,
+.icons .btn-primary.active {
+    background-color: rgba( 29, 29, 29, 0.8);
+    border: 0;
+    color: rgba(254,254,227, 0.8)
+
+}
+
+.btn-circle.btn-xl {
+    width: 6rem;
+    height: 6rem;
+
+    border-radius: 70px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.modal-header {
+    border-bottom: 1px solid #fffd8d;
+}
+
+.modal-content {
+    background-color: #1d1d1d;
+    color: #fffd8d;
+}
+.modal-content h3 {
+    font-size: 2rem;
 }
