@@ -1,3 +1,4 @@
+//Parallax
 let cloud= document.getElementById('cloud1');
         let cloud2= document.getElementById('cloud2');
         let cloud3= document.getElementById('cloud3');
@@ -15,10 +16,10 @@ let cloud= document.getElementById('cloud1');
             text2.style.marginLeft = value * 0.2+ 'px';
 })
 
-
+//Animate on Scroll Init
 AOS.init();
 
-
+//Swiper Init
 var swiper = new Swiper(".mySwiper", {
     spaceBetween: 30,
     centeredSlides: true,
@@ -34,17 +35,17 @@ var swiper = new Swiper(".mySwiper", {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
-  });
+});
 
-
-  var additionalOptions = {
+//Timeline init and config
+var additionalOptions = {
     default_bg_color: {r:254, g:254, b:227},
     language: "es",
     font: null
 }
-window.timeline = new TL.Timeline('timeline-embed', 'timeline.json',additionalOptions);
+window.timeline = new TL.Timeline('timeline-embed', 'app/timeline.json',additionalOptions);
 
-
+//Modals config
 $(function() {
 
     $(".btn").on("click", function() {
@@ -61,4 +62,4 @@ $(function() {
     
     myModal.addEventListener('shown.bs.modal', function () {
       myInput.focus()
-    })
+})
